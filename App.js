@@ -44,7 +44,7 @@ export default class App extends React.Component {
   componentDidMount() {
     SplashScreen.hide();
     this.getlocation();
-    /////////////////
+    /////////////////sorry... forgot to use any try catch block in async operations///
     // notifications
     this.localNotify = notificationManager;
     this.localNotify.configure(
